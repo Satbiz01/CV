@@ -1,0 +1,237 @@
+body{
+  background: #f6f6fa;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wrapper{
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-content{
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+.sidebar{
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
+}
+.sidebar-content{
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.contacts-title{
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.contacts-type{
+  font-weight: 700;
+  
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+}
+.contacts-link{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
+.contacts-item{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.contacts-container{
+  margin-bottom: 40px;
+}
+.skills-title{
+  margin-top: 0;
+  margin-bottom: 8px;
+  line-height: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+}
+.skills-container{
+  margin-bottom: 40px;
+}
+.skills-list{
+  padding-left: 16px;
+}
+.skills-list-item{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+.my-profession{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 121%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-name{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 122%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.my-discr{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+.my-info{
+  margin-bottom: 40px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+}
+.my-projects-title{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-projects-item{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #000;
+}
+.my-projects-list{
+  padding-left: 16px;
+}
+.my-projects-item-link{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+.my-projects-item-tech{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+.my-projects-container{
+  margin-bottom: 40px;
+}
+.work-experince-title{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.work-experince-company{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.company-name{
+  color: #6d9bf5;
+}
+.work-experince-period{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.work-experince-period-separator{
+  color: #000;
+}
+.work-experince-duties-list-item{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+.work-experince-duties-list{
+  padding-left: 16px;
+}
+.work-experince-container{
+  margin-bottom: 12px;
+}
+.education-title{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-university{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-faculty{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-period{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-period-separator{
+  color: #000;
+}
+.education-container{
+  margin-top: 40px;
+}
